@@ -4,11 +4,19 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var formidable = require('express-formidable');
+var Hbs = require('hbs');
 
 var index = require('./routes/index');
 var mid = require('./routes/mid');
 var config = require('./config');
 
+Hbs.registerHelper('eq', (a,b) => a===b);
+
+mongoose.connect(config.database.url, {useMongoClient: true}, function(err) {
+  if (err) throw err;
+}); // connect to db
 
 var app = express();
 
@@ -23,6 +31,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(formidable({
+  encoding: 'utf-8',
+  uploadDir: './uploads',
+  multiples: true, // req.files to be arrays of files 
+}));
 
 app.use('/', mid);
 app.use('/', index);

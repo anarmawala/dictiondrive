@@ -21,7 +21,7 @@ router.use(function(req, res, next) {
 
 /* append title */
 router.use(function(req, res, next) {
-  res.locals.title = req.url.split("/").pop().toUpperCase();
+  res.locals.config.title.local = req.url.split("/").pop().toUpperCase();
   next();
 });
 

@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title.global}}{{#if title.local}}--{{title.local}}{{/if}}</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <title>{{config.title.global}}{{#if config.title.local}}--{{config.title.local}}{{/if}}</title>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/Footer-Basic.css">
     <link rel="stylesheet" href="/stylesheets/Navigation-Clean1.css">
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
-    <script src="/javascripts/dropzone.js"</script>
+    <script src="/javascripts/dropzone.js"></script>
 </head>
 
 <body style="text-align:center;">
@@ -19,14 +19,14 @@
     <div>
         <nav class="navbar navbar-default navigation-clean">
             <div class="container">
-                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">DictionDrive </a>
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">{{config.title.global}}</a>
                     <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li role="presentation"><a href="/">Home </a></li>
-                        <li role="presentation"><a href="/about">About </a></li>
-                        <li role="presentation"><a href="/policy">Policy </a></li>
+                        <li role="presentation" {{#unless config.title.local}}class="active"{{/unless}}><a href="/">Home </a></li>
+                        <li role="presentation" {{#if (eq config.title.local "about")}}class="active" {{/if}}><a href="/about">About </a></li>
+                        <li role="presentation" {{#if (eq config.title.local "legal")}}class="active"{{/if}}><a href="/legal">Legal </a></li>
                     </ul>
                 </div>
             </div>
