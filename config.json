@@ -1,8 +1,11 @@
 {
-  "about": {
-    "desc": ""
+ "database": {
+   "url": "mongodb://localhost:27017/dictionDrive"
   },
-  "legal": {
-    "desc": ""
+  "locals": {
+    "updateTime": 60000,
+    "title": {
+      "global": "DictionDrive"
+    }
   }
 }
