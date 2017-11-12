@@ -64,7 +64,7 @@ router.get('/:keyWord', function(req, res, next) {
     keyWord: req.params.keyWord.toLowerCase()
   }, function(err, data) {
     if (err) next(err);
-    res.download(data.path, data.name);
+    res.send("DNE");
   });
 });
 
