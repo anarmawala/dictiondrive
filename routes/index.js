@@ -1,8 +1,27 @@
 var express = require('express');
 var wordList = require('an-array-of-english-words');
+var fs = require('fs');
 var config = require('../config');
 var fileUpload = require('../models/fileUpload');
 var router = express.Router();
+
+var clearFiles = function() {
+  var cutoff = new Date(new Date().getTime() - 24 * 60 * 60 * 1000);
+  fileUpload.find({
+    date: {
+      $lt: cutoff
+    }
+  }, function (err, data) {
+    data.forEach(function(e) {
+      console.log(`${e.keyword} removed at ${e.path}`);
+      fs.unlink(e.path);
+      e.remove();
+    });
+  });
+  console.log("Scanned for old files");
+};
+clearFiles();
+setInterval(clearFiles, 60000);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -22,6 +41,7 @@ router.post('/upload', function(req, res, next) {
   var freeWords = wordList.filter(function (word) {
     return usedWords.indexOf(word)==-1;
   });
+  
   var keyWord = freeWords[Math.floor(Math.random() * freeWords.length)];
   var file = req.files.file;
   var toSave = new fileUpload({
@@ -39,25 +59,13 @@ router.post('/upload', function(req, res, next) {
 });
 
 /* GET file */
-router.get('/download/:keyWord', function(req, res, next) {
+router.get('/:keyWord', function(req, res, next) {
   fileUpload.findOne({
-    keyWord: req.params.keyWord
+    keyWord: req.params.keyWord.toLowerCase()
   }, function(err, data) {
     if (err) next(err);
     res.download(data.path, data.name);
   });
-});
-
-/* GET about page. */
-router.get('/about', function(req, res, next) {
-  var file = req.files.upload;
-  var keyWord = 
-  res.render('about');
-});
-
-/* GET legal page. */
-router.get('/legal', function(req, res, next) {
-  res.render('legal');
 });
 
 module.exports = router;

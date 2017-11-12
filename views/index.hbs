@@ -1,9 +1,110 @@
-    <div class="container">
-      <div id="dropzone">
-        <form action="/upload" method="post" class="dropzone" id="file-upload">
-          <!--div class="dz-message needsclick">
-            Drop files here or click to upload.
-          </div-->
-        </form>
-      </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="up-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Upload to Diction Drive</h4></div>
+                <div class="modal-body">
+                    <div id="dropzone">
+                      <form action="/upload" method="post" class="dropzone" id="file-upload">
+                        <div class="dz-message needsclick">
+                          Drop files here or click to upload.
+                        </div>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="down-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title">Download Your File</h4></div>
+                <div class="modal-body">
+                    <div class="form-group has-feedback"><i class="form-control-feedback glyphicon glyphicon-star" aria-hidden="true"></i>
+                      <input class="form-control" type="text" id="keyWord-download" placeholder="Enter your keyword" autocomplete="off">
+                      <p class="help-block">Please enter the keyword you recieved after uploading your file.</p>
+                    </div>
+                    <a href="" class="btn btn-primary" id="downloadSubmit">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-bs-parallax-bg="true" style="height:100vh;background-image:url(https://unsplash.it/1800/900?image=1051);background-position:center;background-size:cover;">
+        <div class="alert alert-success" role="alert" id="keywordAlert" style="margin-bottom:-50px;height:50px;" hidden="true">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button><span>Upload successful. Your keyword is <span class="text-uppercase" id="keywordAlertText">keyword </span></span>
+        </div>
+        <div class="container hero">
+            <div class="row" style="margin-top:50px;">
+                <div class="col-md-4 col-md-push-7 hidden-xs hidden-sm phone-preview">
+                    <div class="iphone-mockup"><img src="/images/iphone.svg" class="device">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-pull-3 get-it" style="position:absolute;text-align:left;left:20%;">
+                    <h1 style="margin-bottom:19px;">DictionDrive </h1>
+                    <p class="lead"> Minimulm hassle, Maximum fast</p>
+                    <p>
+                        <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#up-modal">Upload </button>
+                        <button class="btn btn-success btn-lg" type="button" data-toggle="modal" data-target="#down-modal">Download </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials">
+        <h2 class="text-center">What is DictionDrive?</h2>
+        <p class="text-center">DictionDrive is an easy-to-use framework for sharing files. Users are able to upload files in two clicks and  </p>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Fantastic Features</h2>
+                    <p>Morbi non mauris massa. Duis elit mauris, malesuada nec suscipit ac, bibendum sed augue. Maecenas condimentum magna gravida, laoreet nunc sed, euismod sem. </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row icon-features">
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-download-alt"></i>
+                            <p>Easy Access</p>
+                        </div>
+                        <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-user"></i>
+                            <p>No Login</p>
+                        </div>
+                        <div class="col-md-offset-0 col-xs-4 icon-feature"><i class="glyphicon glyphicon-cloud"></i>
+                            <p>Simple Upload</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="team-clean">
+        <div class="container">
+            <div class="intro"></div>
+            <div class="row people">
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/jack.jpg">
+                    <h3 class="name">Jack</h3>
+                    <p class="title">Backend</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/arshad.jpg">
+                    <h3 class="name">Arshad</h3>
+                    <p class="title">Frontend</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/gabe.jpg">
+                    <h3 class="name">Gabe </h3>
+                    <p class="title">Artist </p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                </div>
+                <div class="col-md-3 col-sm-6 item"><img class="img-circle" src="/images/emet.jpg">
+                    <h3 class="name">Emet </h3>
+                    <p class="title">Product Design</p>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                </div>
+            </div>
+        </div>
     </div>

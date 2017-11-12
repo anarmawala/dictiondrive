@@ -1,0 +1,143 @@
+bplist00ÑXUTI-DataÓ_$com.apple.traditional-mac-plain-text_public.utf8-plain-text_public.utf16-plain-textO­{  "branch": "7.3",  "branchFull": "LCUReleases/7.3",  "codeBuildId": 3845514,  "contentBuildId": 3845438,  "gameBranch": "7.3",  "gameBranchFull": "Releases/7.3",  "gameDataBuildId": 3842375,  "patchline": "Maclive",  "version": "7.3.175.2510",  "plugins": {    "rcp-fe-plugin-runner": "0.0.22",    "rcp-be-lol-game-data": "1.0.0",    "rcp-fe-common-libs": "1.0.25",    "rcp-fe-l10n": "0.0.485",    "rcp-fe-lol-startup": "0.0.17",    "rcp-be-patcher": "1.8.22-hotfix01",    "rcp-be-rso-auth": "1.7.2",    "rcp-be-lol-login": "1.2.7-hotfix01",    "rcp-be-lol-account-settings": "1.0.8",    "rcp-be-lol-platform-config": "1.0.10",    "rcp-be-lol-summoner": "1.3.6",    "rcp-be-lol-ranked-stats": "1.0.18-hotfix01",    "rcp-be-lol-maps": "1.0.8",    "rcp-be-lol-game-queues": "1.0.35",    "rcp-be-lol-gameflow": "1.5.0",    "rcp-be-lol-player-preferences": "1.0.12",    "rcp-be-lol-game-settings": "1.0.34",    "rcp-be-lol-settings": "1.0.24",    "rcp-be-sanitizer": "1.0.16",    "rcp-be-lol-chat": "1.2.100",    "rcp-be-lol-riot-messaging-service": "1.0.9",    "rcp-be-lol-heartbeat": "1.0.11",    "rcp-be-lol-shutdown": "1.0.10",    "rcp-be-lol-acs": "1.1.1",    "rcp-be-player-notifications": "1.0.20",    "rcp-be-lol-loyalty": "1.0.11",    "rcp-be-lol-collections": "1.1.5",    "rcp-be-lol-loot": "1.1.41",    "rcp-be-lol-kr-shutdown-law": "1.0.11",    "rcp-be-lol-lobby-team-builder": "1.0.37",    "rcp-be-lol-queue-eligibility": "1.0.19",    "rcp-be-lol-lobby": "1.2.24",    "rcp-be-lol-license-agreement": "1.1.3",    "rcp-be-lol-champ-select-legacy": "1.1.22",    "rcp-be-lol-champ-select": "1.0.24",    "rcp-be-lol-matchmaking": "1.1.9",    "rcp-be-lol-kr-playtime-reminder": "1.0.9",    "rcp-be-lol-game-client-chat": "1.0.11",    "rcp-be-lol-team-boosts": "1.0.12",    "rcp-be-lol-end-of-game": "1.3.7",    "rcp-be-lol-active-boosts": "1.0.7",    "rcp-be-lol-kudos": "1.0.16",    "rcp-be-lol-parties": "1.0.12",    "rcp-be-lol-leagues": "1.0.22",    "rcp-be-lol-pft": "1.0.11",    "rcp-be-lol-player-behavior": "1.0.15",    "rcp-be-lol-suggested-players": "1.0.15",    "rcp-be-lol-service-status": "1.0.8",    "rcp-be-lol-leaver-buster": "1.0.10",    "rcp-be-lol-match-history": "1.1.15",    "rcp-be-recofriender": "1.5.0",    "rcp-be-lol-clubs": "1.0.39",    "rcp-be-lol-clubs-public": "1.0.19",    "rcp-be-lol-esport-stream-notifications": "1.0.19",    "rcp-be-lol-replays": "1.0.41",    "rcp-be-lol-spectator": "1.0.11",    "rcp-be-lol-store": "1.0.19",    "rcp-be-lol-player-level-up": "1.2.8",    "rcp-be-lol-tencent-qt": "1.0.10",    "rcp-be-lol-beta-opt-in": "1.0.26",    "rcp-be-lol-player-messaging": "1.0.2",    "rcp-be-lol-user-experience": "1.0.4",    "rcp-be-lol-simple-dialog-messages": "1.0.1",    "rcp-fe-error-reporter": "0.0.105",    "rcp-fe-viewport": "0.0.67",    "rcp-fe-audio": "0.0.50",    "rcp-fe-lol-typekit": "0.0.49",    "rcp-fe-lock-and-load": "0.0.7",    "rcp-fe-lol-uikit": "0.3.249",    "rcp-fe-lol-loading-screen": "0.0.2",    "rcp-fe-ember-libs": "0.0.38",    "rcp-fe-lcu-bootstrap-ui": "0.0.57",    "rcp-fe-lol-patcher": "0.1.114",    "rcp-fe-lol-navigation": "0.0.230",    "rcp-fe-lol-service-status": "0.0.57",    "rcp-fe-lol-home-registry": "0.0.3",    "rcp-fe-lol-home": "1.0.72",    "rcp-fe-lol-mastery-panel": "2.0.36",    "rcp-fe-lol-club-tag-components": "0.0.33",    "rcp-fe-components-js-libs": "0.0.7",    "rcp-fe-lol-hover-card": "0.1.162",    "rcp-fe-lol-social-avatar": "1.0.4",    "rcp-fe-settings": "0.0.154",    "rcp-fe-user-experience-settings": "0.0.30",    "rcp-fe-lol-parties": "0.0.822",    "rcp-fe-app-controls": "0.0.387",    "rcp-fe-lol-player-notifications": "0.0.177",    "rcp-fe-lol-summoner-icon-picker": "0.0.30",    "rcp-fe-lol-profiles": "0.0.272",    "rcp-fe-lol-friend-finder": "0.0.131",    "rcp-fe-lol-social": "1.0.856",    "rcp-fe-lol-champ-select": "1.0.614-hotfix01",    "rcp-fe-lol-license-agreement": "0.0.26",    "rcp-fe-lol-splash": "1.9.1",    "rcp-fe-lol-login": "0.0.336",    "rcp-fe-lol-kr-legal": "0.0.13",    "rcp-fe-lol-pft": "1.0.13",    "rcp-fe-lol-match-history": "0.0.392",    "rcp-fe-lol-ready-check": "0.0.184-hotfix01",    "rcp-fe-lol-reward-notifications": "0.0.102",    "rcp-fe-lol-postgame": "1.0.475",    "rcp-fe-lol-game-in-progress": "0.0.53",    "rcp-fe-lol-reconnect-notification": "2.0.4",    "rcp-fe-lol-player-behavior": "0.0.149",    "rcp-fe-lol-runes": "0.0.176",    "rcp-fe-lol-champion-details": "0.0.152",    "rcp-fe-lol-collections": "1.0.81",    "rcp-fe-lol-loyalty": "0.0.33",    "rcp-fe-payments": "0.0.18",    "rcp-fe-lol-store": "0.0.101",    "rcp-fe-lol-loot": "0.0.128",    "rcp-fe-lol-replays": "0.0.31",    "rcp-fe-lol-clubs": "0.0.160",    "rcp-fe-lol-license-settings": "0.0.39",    "rcp-fe-lol-general-settings": "0.0.64",    "rcp-fe-lol-chat-settings": "0.0.33",    "rcp-fe-lol-sound-settings": "0.0.81",    "rcp-fe-lol-game-settings": "0.0.42",    "rcp-fe-lol-block-list-settings": "0.0.25",    "rcp-fe-lol-notification-settings": "0.0.22",    "rcp-fe-lol-leagues": "0.0.310",    "rcp-fe-language-filter": "0.0.60",    "rcp-fe-lol-new-player-intro": "0.0.60",    "rcp-fe-lol-tencent-qt": "0.0.21",    "rcp-fe-lol-battle-training": "0.0.66",    "rcp-be-network-testing": "1.0.3",    "rcp-fe-lol-player-messaging": "0.0.2",    "rcp-fe-lol-esports-spectate": "0.0.12",    "rcp-fe-lol-simple-dialog-messages": "0.0.8",    "rcp-fe-lol-champion-mastery-notifications": "0.0.12"  }}_­{
+  "branch": "7.3",
+  "branchFull": "LCUReleases/7.3",
+  "codeBuildId": 3845514,
+  "contentBuildId": 3845438,
+  "gameBranch": "7.3",
+  "gameBranchFull": "Releases/7.3",
+  "gameDataBuildId": 3842375,
+  "patchline": "Maclive",
+  "version": "7.3.175.2510",
+  "plugins": {
+    "rcp-fe-plugin-runner": "0.0.22",
+    "rcp-be-lol-game-data": "1.0.0",
+    "rcp-fe-common-libs": "1.0.25",
+    "rcp-fe-l10n": "0.0.485",
+    "rcp-fe-lol-startup": "0.0.17",
+    "rcp-be-patcher": "1.8.22-hotfix01",
+    "rcp-be-rso-auth": "1.7.2",
+    "rcp-be-lol-login": "1.2.7-hotfix01",
+    "rcp-be-lol-account-settings": "1.0.8",
+    "rcp-be-lol-platform-config": "1.0.10",
+    "rcp-be-lol-summoner": "1.3.6",
+    "rcp-be-lol-ranked-stats": "1.0.18-hotfix01",
+    "rcp-be-lol-maps": "1.0.8",
+    "rcp-be-lol-game-queues": "1.0.35",
+    "rcp-be-lol-gameflow": "1.5.0",
+    "rcp-be-lol-player-preferences": "1.0.12",
+    "rcp-be-lol-game-settings": "1.0.34",
+    "rcp-be-lol-settings": "1.0.24",
+    "rcp-be-sanitizer": "1.0.16",
+    "rcp-be-lol-chat": "1.2.100",
+    "rcp-be-lol-riot-messaging-service": "1.0.9",
+    "rcp-be-lol-heartbeat": "1.0.11",
+    "rcp-be-lol-shutdown": "1.0.10",
+    "rcp-be-lol-acs": "1.1.1",
+    "rcp-be-player-notifications": "1.0.20",
+    "rcp-be-lol-loyalty": "1.0.11",
+    "rcp-be-lol-collections": "1.1.5",
+    "rcp-be-lol-loot": "1.1.41",
+    "rcp-be-lol-kr-shutdown-law": "1.0.11",
+    "rcp-be-lol-lobby-team-builder": "1.0.37",
+    "rcp-be-lol-queue-eligibility": "1.0.19",
+    "rcp-be-lol-lobby": "1.2.24",
+    "rcp-be-lol-license-agreement": "1.1.3",
+    "rcp-be-lol-champ-select-legacy": "1.1.22",
+    "rcp-be-lol-champ-select": "1.0.24",
+    "rcp-be-lol-matchmaking": "1.1.9",
+    "rcp-be-lol-kr-playtime-reminder": "1.0.9",
+    "rcp-be-lol-game-client-chat": "1.0.11",
+    "rcp-be-lol-team-boosts": "1.0.12",
+    "rcp-be-lol-end-of-game": "1.3.7",
+    "rcp-be-lol-active-boosts": "1.0.7",
+    "rcp-be-lol-kudos": "1.0.16",
+    "rcp-be-lol-parties": "1.0.12",
+    "rcp-be-lol-leagues": "1.0.22",
+    "rcp-be-lol-pft": "1.0.11",
+    "rcp-be-lol-player-behavior": "1.0.15",
+    "rcp-be-lol-suggested-players": "1.0.15",
+    "rcp-be-lol-service-status": "1.0.8",
+    "rcp-be-lol-leaver-buster": "1.0.10",
+    "rcp-be-lol-match-history": "1.1.15",
+    "rcp-be-recofriender": "1.5.0",
+    "rcp-be-lol-clubs": "1.0.39",
+    "rcp-be-lol-clubs-public": "1.0.19",
+    "rcp-be-lol-esport-stream-notifications": "1.0.19",
+    "rcp-be-lol-replays": "1.0.41",
+    "rcp-be-lol-spectator": "1.0.11",
+    "rcp-be-lol-store": "1.0.19",
+    "rcp-be-lol-player-level-up": "1.2.8",
+    "rcp-be-lol-tencent-qt": "1.0.10",
+    "rcp-be-lol-beta-opt-in": "1.0.26",
+    "rcp-be-lol-player-messaging": "1.0.2",
+    "rcp-be-lol-user-experience": "1.0.4",
+    "rcp-be-lol-simple-dialog-messages": "1.0.1",
+    "rcp-fe-error-reporter": "0.0.105",
+    "rcp-fe-viewport": "0.0.67",
+    "rcp-fe-audio": "0.0.50",
+    "rcp-fe-lol-typekit": "0.0.49",
+    "rcp-fe-lock-and-load": "0.0.7",
+    "rcp-fe-lol-uikit": "0.3.249",
+    "rcp-fe-lol-loading-screen": "0.0.2",
+    "rcp-fe-ember-libs": "0.0.38",
+    "rcp-fe-lcu-bootstrap-ui": "0.0.57",
+    "rcp-fe-lol-patcher": "0.1.114",
+    "rcp-fe-lol-navigation": "0.0.230",
+    "rcp-fe-lol-service-status": "0.0.57",
+    "rcp-fe-lol-home-registry": "0.0.3",
+    "rcp-fe-lol-home": "1.0.72",
+    "rcp-fe-lol-mastery-panel": "2.0.36",
+    "rcp-fe-lol-club-tag-components": "0.0.33",
+    "rcp-fe-components-js-libs": "0.0.7",
+    "rcp-fe-lol-hover-card": "0.1.162",
+    "rcp-fe-lol-social-avatar": "1.0.4",
+    "rcp-fe-settings": "0.0.154",
+    "rcp-fe-user-experience-settings": "0.0.30",
+    "rcp-fe-lol-parties": "0.0.822",
+    "rcp-fe-app-controls": "0.0.387",
+    "rcp-fe-lol-player-notifications": "0.0.177",
+    "rcp-fe-lol-summoner-icon-picker": "0.0.30",
+    "rcp-fe-lol-profiles": "0.0.272",
+    "rcp-fe-lol-friend-finder": "0.0.131",
+    "rcp-fe-lol-social": "1.0.856",
+    "rcp-fe-lol-champ-select": "1.0.614-hotfix01",
+    "rcp-fe-lol-license-agreement": "0.0.26",
+    "rcp-fe-lol-splash": "1.9.1",
+    "rcp-fe-lol-login": "0.0.336",
+    "rcp-fe-lol-kr-legal": "0.0.13",
+    "rcp-fe-lol-pft": "1.0.13",
+    "rcp-fe-lol-match-history": "0.0.392",
+    "rcp-fe-lol-ready-check": "0.0.184-hotfix01",
+    "rcp-fe-lol-reward-notifications": "0.0.102",
+    "rcp-fe-lol-postgame": "1.0.475",
+    "rcp-fe-lol-game-in-progress": "0.0.53",
+    "rcp-fe-lol-reconnect-notification": "2.0.4",
+    "rcp-fe-lol-player-behavior": "0.0.149",
+    "rcp-fe-lol-runes": "0.0.176",
+    "rcp-fe-lol-champion-details": "0.0.152",
+    "rcp-fe-lol-collections": "1.0.81",
+    "rcp-fe-lol-loyalty": "0.0.33",
+    "rcp-fe-payments": "0.0.18",
+    "rcp-fe-lol-store": "0.0.101",
+    "rcp-fe-lol-loot": "0.0.128",
+    "rcp-fe-lol-replays": "0.0.31",
+    "rcp-fe-lol-clubs": "0.0.160",
+    "rcp-fe-lol-license-settings": "0.0.39",
+    "rcp-fe-lol-general-settings": "0.0.64",
+    "rcp-fe-lol-chat-settings": "0.0.33",
+    "rcp-fe-lol-sound-settings": "0.0.81",
+    "rcp-fe-lol-game-settings": "0.0.42",
+    "rcp-fe-lol-block-list-settings": "0.0.25",
+    "rcp-fe-lol-notification-settings": "0.0.22",
+    "rcp-fe-lol-leagues": "0.0.310",
+    "rcp-fe-language-filter": "0.0.60",
+    "rcp-fe-lol-new-player-intro": "0.0.60",
+    "rcp-fe-lol-tencent-qt": "0.0.21",
+    "rcp-fe-lol-battle-training": "0.0.66",
+    "rcp-be-network-testing": "1.0.3",
+    "rcp-fe-lol-player-messaging": "0.0.2",
+    "rcp-fe-lol-esports-spectate": "0.0.12",
+    "rcp-fe-lol-simple-dialog-messages": "0.0.8",
+    "rcp-fe-lol-champion-mastery-notifications": "0.0.12"
+  }
+}O+Z{      " b r a n c h " :   " 7 . 3 " ,      " b r a n c h F u l l " :   " L C U R e l e a s e s / 7 . 3 " ,      " c o d e B u i l d I d " :   3 8 4 5 5 1 4 ,      " c o n t e n t B u i l d I d " :   3 8 4 5 4 3 8 ,      " g a m e B r a n c h " :   " 7 . 3 " ,      " g a m e B r a n c h F u l l " :   " R e l e a s e s / 7 . 3 " ,      " g a m e D a t a B u i l d I d " :   3 8 4 2 3 7 5 ,      " p a t c h l i n e " :   " M a c l i v e " ,      " v e r s i o n " :   " 7 . 3 . 1 7 5 . 2 5 1 0 " ,      " p l u g i n s " :   {          " r c p - f e - p l u g i n - r u n n e r " :   " 0 . 0 . 2 2 " ,          " r c p - b e - l o l - g a m e - d a t a " :   " 1 . 0 . 0 " ,          " r c p - f e - c o m m o n - l i b s " :   " 1 . 0 . 2 5 " ,          " r c p - f e - l 1 0 n " :   " 0 . 0 . 4 8 5 " ,          " r c p - f e - l o l - s t a r t u p " :   " 0 . 0 . 1 7 " ,          " r c p - b e - p a t c h e r " :   " 1 . 8 . 2 2 - h o t f i x 0 1 " ,          " r c p - b e - r s o - a u t h " :   " 1 . 7 . 2 " ,          " r c p - b e - l o l - l o g i n " :   " 1 . 2 . 7 - h o t f i x 0 1 " ,          " r c p - b e - l o l - a c c o u n t - s e t t i n g s " :   " 1 . 0 . 8 " ,          " r c p - b e - l o l - p l a t f o r m - c o n f i g " :   " 1 . 0 . 1 0 " ,          " r c p - b e - l o l - s u m m o n e r " :   " 1 . 3 . 6 " ,          " r c p - b e - l o l - r a n k e d - s t a t s " :   " 1 . 0 . 1 8 - h o t f i x 0 1 " ,          " r c p - b e - l o l - m a p s " :   " 1 . 0 . 8 " ,          " r c p - b e - l o l - g a m e - q u e u e s " :   " 1 . 0 . 3 5 " ,          " r c p - b e - l o l - g a m e f l o w " :   " 1 . 5 . 0 " ,          " r c p - b e - l o l - p l a y e r - p r e f e r e n c e s " :   " 1 . 0 . 1 2 " ,          " r c p - b e - l o l - g a m e - s e t t i n g s " :   " 1 . 0 . 3 4 " ,          " r c p - b e - l o l - s e t t i n g s " :   " 1 . 0 . 2 4 " ,          " r c p - b e - s a n i t i z e r " :   " 1 . 0 . 1 6 " ,          " r c p - b e - l o l - c h a t " :   " 1 . 2 . 1 0 0 " ,          " r c p - b e - l o l - r i o t - m e s s a g i n g - s e r v i c e " :   " 1 . 0 . 9 " ,          " r c p - b e - l o l - h e a r t b e a t " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - s h u t d o w n " :   " 1 . 0 . 1 0 " ,          " r c p - b e - l o l - a c s " :   " 1 . 1 . 1 " ,          " r c p - b e - p l a y e r - n o t i f i c a t i o n s " :   " 1 . 0 . 2 0 " ,          " r c p - b e - l o l - l o y a l t y " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - c o l l e c t i o n s " :   " 1 . 1 . 5 " ,          " r c p - b e - l o l - l o o t " :   " 1 . 1 . 4 1 " ,          " r c p - b e - l o l - k r - s h u t d o w n - l a w " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - l o b b y - t e a m - b u i l d e r " :   " 1 . 0 . 3 7 " ,          " r c p - b e - l o l - q u e u e - e l i g i b i l i t y " :   " 1 . 0 . 1 9 " ,          " r c p - b e - l o l - l o b b y " :   " 1 . 2 . 2 4 " ,          " r c p - b e - l o l - l i c e n s e - a g r e e m e n t " :   " 1 . 1 . 3 " ,          " r c p - b e - l o l - c h a m p - s e l e c t - l e g a c y " :   " 1 . 1 . 2 2 " ,          " r c p - b e - l o l - c h a m p - s e l e c t " :   " 1 . 0 . 2 4 " ,          " r c p - b e - l o l - m a t c h m a k i n g " :   " 1 . 1 . 9 " ,          " r c p - b e - l o l - k r - p l a y t i m e - r e m i n d e r " :   " 1 . 0 . 9 " ,          " r c p - b e - l o l - g a m e - c l i e n t - c h a t " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - t e a m - b o o s t s " :   " 1 . 0 . 1 2 " ,          " r c p - b e - l o l - e n d - o f - g a m e " :   " 1 . 3 . 7 " ,          " r c p - b e - l o l - a c t i v e - b o o s t s " :   " 1 . 0 . 7 " ,          " r c p - b e - l o l - k u d o s " :   " 1 . 0 . 1 6 " ,          " r c p - b e - l o l - p a r t i e s " :   " 1 . 0 . 1 2 " ,          " r c p - b e - l o l - l e a g u e s " :   " 1 . 0 . 2 2 " ,          " r c p - b e - l o l - p f t " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - p l a y e r - b e h a v i o r " :   " 1 . 0 . 1 5 " ,          " r c p - b e - l o l - s u g g e s t e d - p l a y e r s " :   " 1 . 0 . 1 5 " ,          " r c p - b e - l o l - s e r v i c e - s t a t u s " :   " 1 . 0 . 8 " ,          " r c p - b e - l o l - l e a v e r - b u s t e r " :   " 1 . 0 . 1 0 " ,          " r c p - b e - l o l - m a t c h - h i s t o r y " :   " 1 . 1 . 1 5 " ,          " r c p - b e - r e c o f r i e n d e r " :   " 1 . 5 . 0 " ,          " r c p - b e - l o l - c l u b s " :   " 1 . 0 . 3 9 " ,          " r c p - b e - l o l - c l u b s - p u b l i c " :   " 1 . 0 . 1 9 " ,          " r c p - b e - l o l - e s p o r t - s t r e a m - n o t i f i c a t i o n s " :   " 1 . 0 . 1 9 " ,          " r c p - b e - l o l - r e p l a y s " :   " 1 . 0 . 4 1 " ,          " r c p - b e - l o l - s p e c t a t o r " :   " 1 . 0 . 1 1 " ,          " r c p - b e - l o l - s t o r e " :   " 1 . 0 . 1 9 " ,          " r c p - b e - l o l - p l a y e r - l e v e l - u p " :   " 1 . 2 . 8 " ,          " r c p - b e - l o l - t e n c e n t - q t " :   " 1 . 0 . 1 0 " ,          " r c p - b e - l o l - b e t a - o p t - i n " :   " 1 . 0 . 2 6 " ,          " r c p - b e - l o l - p l a y e r - m e s s a g i n g " :   " 1 . 0 . 2 " ,          " r c p - b e - l o l - u s e r - e x p e r i e n c e " :   " 1 . 0 . 4 " ,          " r c p - b e - l o l - s i m p l e - d i a l o g - m e s s a g e s " :   " 1 . 0 . 1 " ,          " r c p - f e - e r r o r - r e p o r t e r " :   " 0 . 0 . 1 0 5 " ,          " r c p - f e - v i e w p o r t " :   " 0 . 0 . 6 7 " ,          " r c p - f e - a u d i o " :   " 0 . 0 . 5 0 " ,          " r c p - f e - l o l - t y p e k i t " :   " 0 . 0 . 4 9 " ,          " r c p - f e - l o c k - a n d - l o a d " :   " 0 . 0 . 7 " ,          " r c p - f e - l o l - u i k i t " :   " 0 . 3 . 2 4 9 " ,          " r c p - f e - l o l - l o a d i n g - s c r e e n " :   " 0 . 0 . 2 " ,          " r c p - f e - e m b e r - l i b s " :   " 0 . 0 . 3 8 " ,          " r c p - f e - l c u - b o o t s t r a p - u i " :   " 0 . 0 . 5 7 " ,          " r c p - f e - l o l - p a t c h e r " :   " 0 . 1 . 1 1 4 " ,          " r c p - f e - l o l - n a v i g a t i o n " :   " 0 . 0 . 2 3 0 " ,          " r c p - f e - l o l - s e r v i c e - s t a t u s " :   " 0 . 0 . 5 7 " ,          " r c p - f e - l o l - h o m e - r e g i s t r y " :   " 0 . 0 . 3 " ,          " r c p - f e - l o l - h o m e " :   " 1 . 0 . 7 2 " ,          " r c p - f e - l o l - m a s t e r y - p a n e l " :   " 2 . 0 . 3 6 " ,          " r c p - f e - l o l - c l u b - t a g - c o m p o n e n t s " :   " 0 . 0 . 3 3 " ,          " r c p - f e - c o m p o n e n t s - j s - l i b s " :   " 0 . 0 . 7 " ,          " r c p - f e - l o l - h o v e r - c a r d " :   " 0 . 1 . 1 6 2 " ,          " r c p - f e - l o l - s o c i a l - a v a t a r " :   " 1 . 0 . 4 " ,          " r c p - f e - s e t t i n g s " :   " 0 . 0 . 1 5 4 " ,          " r c p - f e - u s e r - e x p e r i e n c e - s e t t i n g s " :   " 0 . 0 . 3 0 " ,          " r c p - f e - l o l - p a r t i e s " :   " 0 . 0 . 8 2 2 " ,          " r c p - f e - a p p - c o n t r o l s " :   " 0 . 0 . 3 8 7 " ,          " r c p - f e - l o l - p l a y e r - n o t i f i c a t i o n s " :   " 0 . 0 . 1 7 7 " ,          " r c p - f e - l o l - s u m m o n e r - i c o n - p i c k e r " :   " 0 . 0 . 3 0 " ,          " r c p - f e - l o l - p r o f i l e s " :   " 0 . 0 . 2 7 2 " ,          " r c p - f e - l o l - f r i e n d - f i n d e r " :   " 0 . 0 . 1 3 1 " ,          " r c p - f e - l o l - s o c i a l " :   " 1 . 0 . 8 5 6 " ,          " r c p - f e - l o l - c h a m p - s e l e c t " :   " 1 . 0 . 6 1 4 - h o t f i x 0 1 " ,          " r c p - f e - l o l - l i c e n s e - a g r e e m e n t " :   " 0 . 0 . 2 6 " ,          " r c p - f e - l o l - s p l a s h " :   " 1 . 9 . 1 " ,          " r c p - f e - l o l - l o g i n " :   " 0 . 0 . 3 3 6 " ,          " r c p - f e - l o l - k r - l e g a l " :   " 0 . 0 . 1 3 " ,          " r c p - f e - l o l - p f t " :   " 1 . 0 . 1 3 " ,          " r c p - f e - l o l - m a t c h - h i s t o r y " :   " 0 . 0 . 3 9 2 " ,          " r c p - f e - l o l - r e a d y - c h e c k " :   " 0 . 0 . 1 8 4 - h o t f i x 0 1 " ,          " r c p - f e - l o l - r e w a r d - n o t i f i c a t i o n s " :   " 0 . 0 . 1 0 2 " ,          " r c p - f e - l o l - p o s t g a m e " :   " 1 . 0 . 4 7 5 " ,          " r c p - f e - l o l - g a m e - i n - p r o g r e s s " :   " 0 . 0 . 5 3 " ,          " r c p - f e - l o l - r e c o n n e c t - n o t i f i c a t i o n " :   " 2 . 0 . 4 " ,          " r c p - f e - l o l - p l a y e r - b e h a v i o r " :   " 0 . 0 . 1 4 9 " ,          " r c p - f e - l o l - r u n e s " :   " 0 . 0 . 1 7 6 " ,          " r c p - f e - l o l - c h a m p i o n - d e t a i l s " :   " 0 . 0 . 1 5 2 " ,          " r c p - f e - l o l - c o l l e c t i o n s " :   " 1 . 0 . 8 1 " ,          " r c p - f e - l o l - l o y a l t y " :   " 0 . 0 . 3 3 " ,          " r c p - f e - p a y m e n t s " :   " 0 . 0 . 1 8 " ,          " r c p - f e - l o l - s t o r e " :   " 0 . 0 . 1 0 1 " ,          " r c p - f e - l o l - l o o t " :   " 0 . 0 . 1 2 8 " ,          " r c p - f e - l o l - r e p l a y s " :   " 0 . 0 . 3 1 " ,          " r c p - f e - l o l - c l u b s " :   " 0 . 0 . 1 6 0 " ,          " r c p - f e - l o l - l i c e n s e - s e t t i n g s " :   " 0 . 0 . 3 9 " ,          " r c p - f e - l o l - g e n e r a l - s e t t i n g s " :   " 0 . 0 . 6 4 " ,          " r c p - f e - l o l - c h a t - s e t t i n g s " :   " 0 . 0 . 3 3 " ,          " r c p - f e - l o l - s o u n d - s e t t i n g s " :   " 0 . 0 . 8 1 " ,          " r c p - f e - l o l - g a m e - s e t t i n g s " :   " 0 . 0 . 4 2 " ,          " r c p - f e - l o l - b l o c k - l i s t - s e t t i n g s " :   " 0 . 0 . 2 5 " ,          " r c p - f e - l o l - n o t i f i c a t i o n - s e t t i n g s " :   " 0 . 0 . 2 2 " ,          " r c p - f e - l o l - l e a g u e s " :   " 0 . 0 . 3 1 0 " ,          " r c p - f e - l a n g u a g e - f i l t e r " :   " 0 . 0 . 6 0 " ,          " r c p - f e - l o l - n e w - p l a y e r - i n t r o " :   " 0 . 0 . 6 0 " ,          " r c p - f e - l o l - t e n c e n t - q t " :   " 0 . 0 . 2 1 " ,          " r c p - f e - l o l - b a t t l e - t r a i n i n g " :   " 0 . 0 . 6 6 " ,          " r c p - b e - n e t w o r k - t e s t i n g " :   " 1 . 0 . 3 " ,          " r c p - f e - l o l - p l a y e r - m e s s a g i n g " :   " 0 . 0 . 2 " ,          " r c p - f e - l o l - e s p o r t s - s p e c t a t e " :   " 0 . 0 . 1 2 " ,          " r c p - f e - l o l - s i m p l e - d i a l o g - m e s s a g e s " :   " 0 . 0 . 8 " ,          " r c p - f e - l o l - c h a m p i o n - m a s t e r y - n o t i f i c a t i o n s " :   " 0 . 0 . 1 2 "      }  }      B [ u&+×             	              W5
