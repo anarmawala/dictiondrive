@@ -11,6 +11,7 @@ router.get('/', function(req, res, next) {
 
 /* POST files */
 router.post('/upload', function(req, res, next) {  
+  console.log(req.headers);
   var usedWords = [];
   fileUpload.find({}, function (err, data) {
     if (err) throw err;
@@ -31,10 +32,10 @@ router.post('/upload', function(req, res, next) {
     date: Date()
   });
   toSave.save(function(err) {
-    if (err) next(err);
-    else return res.end(keyWord);
     console.log(keyWord);
+    if (err) next(err);
   });
+  res.send(keyWord);
 });
 
 /* GET file */

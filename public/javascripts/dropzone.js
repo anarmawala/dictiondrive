@@ -304,7 +304,7 @@ var Dropzone = function (_Emitter) {
         /**
          * Can be used to limit the maximum number of files that will be handled by this Dropzone
          */
-        maxFiles: null,
+        maxFiles: 1,
 
         /**
          * An optional object to send additional headers to the server. Eg:
@@ -486,7 +486,14 @@ var Dropzone = function (_Emitter) {
          * Called when dropzone initialized
          * You can add event listeners here
          */
-        init: function init() {},
+        init: function init() {
+          this.on('addedfile', function(file) {
+              if (this.files.length > 1) {
+                console.log(this.files);
+                this.removeFile(this.files[this.files.length-1]);
+              }
+            });
+        },
 
 
         /**
@@ -962,7 +969,9 @@ var Dropzone = function (_Emitter) {
           }
         },
         completemultiple: function completemultiple() {},
-        maxfilesexceeded: function maxfilesexceeded() {},
+        maxfilesexceeded: function maxfilesexceeded() {
+          
+        },
         maxfilesreached: function maxfilesreached() {},
         queuecomplete: function queuecomplete() {},
         addedfiles: function addedfiles() {}
@@ -2414,7 +2423,7 @@ var Dropzone = function (_Emitter) {
         return _this16._updateFilesUploadProgress(files, xhr, e);
       };
 
-      var headers = {
+      /*var headers = {
         "Accept": "application/json",
         "Cache-Control": "no-cache",
         "X-Requested-With": "XMLHttpRequest"
@@ -2429,7 +2438,7 @@ var Dropzone = function (_Emitter) {
         if (headerValue) {
           xhr.setRequestHeader(headerName, headerValue);
         }
-      }
+      }*/
 
       var formData = new FormData();
 
