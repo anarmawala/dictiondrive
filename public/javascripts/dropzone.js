@@ -495,6 +495,9 @@ var Dropzone = function (_Emitter) {
           this.on("success", function(file, res) {
             $('#keywordAlertText').text(res);
             $('#keywordAlert').show();
+            setTimeout(function() {
+              $('#keywordAlert').hide();
+            }, 30000);
             $('#up-modal').modal("hide");
             this.removeAllFiles();
           })
