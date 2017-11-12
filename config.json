@@ -1,6 +1,6 @@
 {
  "database": {
-   "url": "mongodb://localhost:27017/dictionDrive"
+   "url": "mongodb://heroku_9c6v8r36:n9ij77vh27dpm7ikm42m8q0j4g@ds259175.mlab.com:59175/heroku_9c6v8r36"
   },
   "locals": {
     "updateTime": 60000,
