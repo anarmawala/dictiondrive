@@ -63,8 +63,8 @@ router.get('/:keyWord', function(req, res, next) {
   fileUpload.findOne({
     keyWord: req.params.keyWord.toLowerCase()
   }, function(err, data) {
-    if (err) next(err);
-    res.send("DNE");
+    if (err || data === null) return next();
+    res.download(data.path, data.name);
   });
 });
 
